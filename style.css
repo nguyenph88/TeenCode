@@ -1,0 +1,58 @@
+.wrap {
+  margin: 30px auto;
+  width: 90%;
+  font-family: 'Tahoma', san-serf;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  padding: 5px 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: justify;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#input {
+  background: #fff;
+}
+
+#output {
+  background: #eee;
+  white-space: pre-wrap;
+}
+
+.config {
+  font-size: smaller;
+  color: #595656;
+}
+
+.config input {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.config label {
+  margin: 0 7px;
+}
+
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#copybtn {
+  padding: 4px 0;
+  display: block;
+  width: 100%;
+  color: #595656;
+}
